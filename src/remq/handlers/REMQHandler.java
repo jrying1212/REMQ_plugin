@@ -63,7 +63,7 @@ public class REMQHandler extends AbstractHandler {
 	
 	public void readInfo(){
 		try {
-			FileReader fr = new FileReader("C://Users/asus/Desktop/data.txt");
+			FileReader fr = new FileReader("C://data/data/data.txt");
 			BufferedReader br = new BufferedReader(fr);
 			String str = "";
 			while (br.ready()) {
@@ -106,7 +106,7 @@ public class REMQHandler extends AbstractHandler {
 	}
 	
 	public String getInfo() throws IOException{
-		FileReader fr = new FileReader("C://Users/asus/Desktop/data1.txt");
+		FileReader fr = new FileReader("C://data/data1.txt");
 		BufferedReader br = new BufferedReader(fr);
 		String str ="";
 		while (br.ready()) {
