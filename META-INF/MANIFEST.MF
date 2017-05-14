@@ -5,3 +5,5 @@ Bundle-SymbolicName: REMQ;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.json.simple,
+ org.modelgoon.jdt.editparts
